@@ -4,7 +4,8 @@ Generating synthetic financial data and computing Volume-Weighted Average Price 
 
 Author: Eldar Urmanov
 
-Run the file by:
+Instructions:
+Run the file by
 
 First, downloading the vwap_compute.q file
 

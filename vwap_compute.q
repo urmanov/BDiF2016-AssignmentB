@@ -2,7 +2,7 @@
 //empty table with data types specified
 trades:([]date:`date$();time:`time$();sym:`symbol$();price:`real$();size:`int$())
 
-createSynthData{[numDays]
+createSynthData:{[numDays]
 //remove previous data entries from the table
 delete from `trades;
 

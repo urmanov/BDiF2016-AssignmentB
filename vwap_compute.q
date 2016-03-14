@@ -22,7 +22,7 @@ cnt:count tickers;
 len:tpd*cnt*numDays;
 
 //generate random sample dates
-date:2016.01.01+len?day;
+date:2016.01.01+len?numDays;
 
 //generate random sample times (without milliseconds)
 time:"t"$raze (cnt*numDays)#enlist 10:00:00+15*til tpd;

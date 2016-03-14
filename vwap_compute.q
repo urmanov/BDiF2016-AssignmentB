@@ -57,6 +57,7 @@ computeVwap:{select vwap:(sum price*size) % (sum size) by date, sym from trades}
 
 
 
+
 //create synthetic financial time series data (trades)
 synthTable:createSynthData[30]
 
